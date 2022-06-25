@@ -1,0 +1,25 @@
+button-default:
+  title: 'Default'
+  description: 'Plain link.'
+  groups:
+    - link
+button-primary:
+  title: 'Primary button'
+  description: 'Button with primary action color.'
+  classes:
+    - link-btn
+    - link-btn--primary
+  libraries:
+    - 'paragraphs_exercise/style_link'
+  groups:
+    - link
+button-secondary:
+  title: 'Secondary button'
+  description: 'Button with secondary action color.'
+  classes:
+    - link-btn
+    - link-btn--secondary
+  groups:
+    - link
+  libraries:
+    - 'paragraphs_exercise/style_link'

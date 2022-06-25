@@ -1,0 +1,17 @@
+paragraphs_exercise_layout_grid__2_1__first_important:
+  title: 'Grid 3 items, first important'
+  description: 'Grid layout that put the first item left 2/3 width and second and third to the right 1/3 width vertically stacked.'
+  wrapper_classes:
+    - grid--2-1--first-important
+  columns:
+    -
+      classes:
+        - grid-item-important
+    -
+      classes:
+        - grid-item-default-first
+    -
+      classes:
+        - grid-item-default-second
+  libraries:
+    - 'paragraphs_exercise/layout_grid'

@@ -1,0 +1,9 @@
+name: Paragraphs Exercise
+type: module
+description: Provides Paragraphs Exercise demo.
+core_version_requirement: ^8.8 || ^9
+package: Paragraphs
+
+dependencies:
+  - paragraphs_collection:paragraphs_collection
+  - paragraphs:paragraphs_library

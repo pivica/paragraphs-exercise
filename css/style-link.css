@@ -1,0 +1,38 @@
+.link-btn a {
+  display: block;
+  padding: .5em 1em;
+  border-radius: 4px;
+  font-size: 1.2em;
+  text-align: center;
+  text-decoration: none;
+}
+
+.link-btn:hover a,
+.link-btn:focus a,
+.link-btn:active a {
+  text-decoration: none;
+}
+
+.link-btn--primary a {
+  background: #005b98;
+  color: #fff;
+}
+
+.link-btn--primary:hover a,
+.link-btn--primary:focus a,
+.link-btn--primary:active a {
+  background: #267dba;
+  color: #fff;
+}
+
+.link-btn--secondary a {
+  background: #005b98;
+  color: #fff;
+}
+
+.link-btn--secondary:hover a,
+.link-btn--secondary:focus a,
+.link-btn--secondary:active a {
+  background: #267dba;
+  color: #fff;
+}
